@@ -14,6 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+<<<<<<< HEAD
 Route::get('/about', function () {
     return view('about');
 });
@@ -34,3 +35,5 @@ Route::get('/testmodel2', function () {
     $post->save();
     return $post;
 });
+=======
+>>>>>>> 3dd934b093ba5feb64ee232afd1f75c55d19896a
